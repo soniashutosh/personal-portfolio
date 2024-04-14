@@ -10,7 +10,7 @@ import AnimatedButton from "./AnimatedButton";
 import {
   TextRevealCard,
   TextRevealCardDescription,
-  TextRevealCardTitle
+  TextRevealCardTitle,
 } from "./ui/text-reveal-card";
 
 function MeshComponent() {
@@ -54,7 +54,7 @@ const FrontPage = () => {
             </TextRevealCard>
           </div>
           <div className="sm:px-10 px-3 sm:pb-0 pb-3 sm:pt-3 pt-0">
-            <AnimatedButton text="Download Resume" link={"try later"} />
+            <AnimatedButton text="Download Resume" link="../../resume.pdf" />
           </div>
           <div className="sm:px-20 px-8 flex flex-row pb-12 sm:pt-10 pt-0">
             <p className="text-white mr-8 text-lg">Connect Me : </p>

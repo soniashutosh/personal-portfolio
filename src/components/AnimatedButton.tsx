@@ -7,6 +7,7 @@ const AnimatedButton = ({ text, link }: { text: string; link?: string }) => {
         borderRadius="1.75rem"
         className="bg-black text-lg dark:bg-white-900 text-white dark:text-black border-neutral-200 dark:border-slate-800"
         duration={4000}
+        target="_blank"
       >
         <a href={link}>{text}</a>
       </Button>
