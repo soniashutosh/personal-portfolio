@@ -7,7 +7,6 @@ const About = () => {
     <div className="text-center justify-center items-center sm:pb-10 pb-3 relative">
       <AnimatedHeading heading="About Me" />
       <TextGenerateEffect words={aboutContent} className="text-white" />
-      {/* <Meteors number={50} /> */}
     </div>
   );
 };
