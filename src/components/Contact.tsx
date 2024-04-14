@@ -11,6 +11,8 @@ const Contact = () => {
   const [email, setEmail] = useState<string | null>();
   const [comments, setComments] = useState<string | null>();
 
+  console.log(firstName, lastName, email, comments);
+
   return (
     <div className="max-w-3xl w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input relative sm:px-0 px-10">
       <AnimatedHeading heading="Contact Me" />
