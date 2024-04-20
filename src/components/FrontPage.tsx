@@ -65,7 +65,7 @@ const FrontPage = () => {
               <IoLogoGithub className="h-6 w-6 text-blue-300 hover:text-blue-400  sm:mr-12 mr-8" />
             </a>
             <a href="https://leetcode.com/soniAshutosh/">
-              <TbBrandLeetcode className="h-6 w-6 text-blue-300 hover:text-blue-400 " />
+              <TbBrandLeetcode className="h-6 w-6 text-blue-300 hover:text-blue-400" />
             </a>
           </div>
         </div>
