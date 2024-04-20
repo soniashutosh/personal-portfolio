@@ -5,7 +5,7 @@ import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 
 const Projects = () => {
   return (
-    <div className="sm:max-w-7xl max-w-96 mx-auto pt-10 relative">
+    <div className="sm:max-w-7xl max-w-[21rem] mx-auto pt-10 relative">
       <AnimatedHeading heading="Projects" />
       <BentoGrid className="max-w-7xl  mx-auto md:auto-rows-[20rem] text-white">
         {projects.map((project: projectProps) => (
